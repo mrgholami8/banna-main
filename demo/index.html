@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#F7F4EC">
+  <title>بنّا | صفحه‌ی شما، جلوی چشم بازدیدکننده ساخته می‌شود</title>
+  <meta name="description" content="بنّا یک اسکریپت متن‌باز از محمدرضا رخ بین است: چند کرسر صفحه‌ی سایت شما را جلوی چشم بازدیدکننده می‌سازند. یک فایل، بدون وابستگی.">
+  <meta name="author" content="محمدرضا رخ بین">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="alternate" hreflang="en" href="en/">
+  <script src="../banna.js" data-colors="#D9572B,#2F5BEA,#0E9F8A,#B5387A,#C98A00,#5B4BD6,#1D2340"></script>
+  <link rel="stylesheet" href="assets/demo.css">
+  <script src="assets/demo.js" defer></script>
+</head>
+<body>
+  <header class="top">
+    <div class="wrap">
+      <a class="brand" href="#"><img src="assets/favicon.svg" alt="" width="28" height="28">بنّا <small>banna</small></a>
+      <nav class="nav" aria-label="منو">
+        <a class="hide-phone" href="#anywhere">نمونه</a>
+        <a class="hide-phone" href="#">استفاده</a>
+        <a class="hide-phone" href="#">سازنده</a>
+        <a href="#" >GitHub</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="wrap">
+        <div>
+          <a class="byline" href="https://divocode.com/" rel="author"><b></b>یک خط اسکریپت</a>
+          <h1>صفحه‌ی شما، <em>جلوی چشم</em> بازدیدکننده ساخته می‌شود.</h1>
+          <p class="lead">چند کرسر می‌آیند و سایت شما را تکه‌تکه می‌سازند: کادر می‌کشند، متن تایپ می‌کنند و دکمه‌ها را سر جایشان می‌گذارند. صفحه‌ی اول همان لحظه ساخته می‌شود و بقیه با اسکرول.</p>
+          <div class="actions">
+            <a class="btn btn-solid" href="https://github.com/Rokhbin/banna" rel="noopener">دریافت از گیت‌هاب</a>
+            <button class="btn" id="replay" type="button">دوباره بساز</button>
+          </div>
+        </div>
+        <div class="mock" aria-hidden="true">
+          <div class="mock-bar"><span></span><span></span><span></span></div>
+          <div class="mock-body">
+            <div class="mock-img"></div>
+            <h3>هر سایتی می‌تواند این‌طور باشد</h3>
+            <p>بدون تغییر در کد صفحه. فقط یک خط به بالای صفحه اضافه کنید.</p>
+            <div class="mock-row"><div></div><div></div><div></div></div>
+            <span class="mock-btn">شروع</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="anywhere">
+      <div class="wrap">
+        <p class="kicker">روی هر سایتی</p>
+        <h2>فروشگاه، وبلاگ یا صفحه‌ی ثبت‌نام</h2>
+        <p class="intro">بنّا خودش تشخیص می‌دهد کدام بخش کادر است، کدام متن و کدام دکمه. لازم نیست چیزی را علامت بزنید.</p>
+        <div class="cards">
+          <article class="card">
+            <div class="product" role="img" aria-label="تصویر محصول"></div>
+            <span class="tag">فروشگاه</span>
+            <h3>ماگ سفالی دست‌ساز</h3>
+            <p>لعاب نارنجی، ساخت کارگاه‌های کوچک.</p>
+            <p class="price">۴۸۰٬۰۰۰ تومان</p>
+            <button class="btn btn-solid" type="button">افزودن به سبد</button>
+          </article>
+          <article class="card">
+            <span class="tag">وبلاگ</span>
+            <h3>چرا سایت‌های ساده بهتر دیده می‌شوند</h3>
+            <p>صفحه‌ای که زود باز شود و حرفش را روشن بزند، بازدیدکننده را نگه می‌دارد. سه نکته‌ی ساده برای شروع.</p>
+            <a class="btn" href="#anywhere">ادامه‌ی مطلب</a>
+          </article>
+          <article class="card">
+            <span class="tag">ثبت‌نام</span>
+            <h3>خبرنامه</h3>
+            <p>ماهی یک ایمیل، بدون تبلیغ.</p>
+            <label class="field">ایمیل شما<input type="email" dir="ltr" placeholder="you@example.com" autocomplete="email"></label>
+            <button class="btn btn-solid" type="button">عضو شوید</button>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="use">
+      <div class="wrap">
+        <p class="kicker">استفاده</p>
+        <h2>فقط یک خط</h2>
+        <p class="intro">بنّا یک فایل است، بدون وابستگی و بدون مرحله‌ی ساخت. فریم‌ورک هم لازم ندارد.</p>
+        <ol class="steps">
+          <li class="step">
+            <span class="step-num">۱</span>
+            <div>
+              <h3>این خط را داخل &lt;head&gt; بگذارید</h3>
+              <p>بهتر است قبل از فایل‌های CSS باشد، بدون defer و async.</p>
+              <div class="code"><pre><code><span class="k">&lt;script</span> src=<span class="s">"https://cdn.jsdelivr.net/gh/Rokhbin/banna@1/banna.js"</span><span class="k">&gt;&lt;/script&gt;</span></code></pre><button class="copy" type="button" data-done="کپی شد" data-fail="کپی نشد">کپی</button></div>
+            </div>
+          </li>
+          <li class="step">
+            <span class="step-num">۲</span>
+            <div>
+              <h3>همین. صفحه را باز کنید</h3>
+              <p>اگر می‌خواهید فایل روی سرور خودتان باشد، banna.js را از گیت‌هاب بردارید و آدرسش را عوض کنید.</p>
+            </div>
+          </li>
+        </ol>
+
+        <table class="options">
+          <thead><tr><th>تنظیم</th><th>پیش‌فرض</th><th>کارش</th></tr></thead>
+          <tbody>
+            <tr><td><code>data-speed</code></td><td><code>1</code></td><td>سرعت ساختن. بیشتر یعنی سریع‌تر.</td></tr>
+            <tr><td><code>data-agents</code></td><td>۸، در موبایل ۴</td><td>تعداد کرسرها.</td></tr>
+            <tr><td><code>data-once="session"</code></td><td>خاموش</td><td>در هر بار باز کردن مرورگر فقط یک بار اجرا شود.</td></tr>
+            <tr><td><code>data-colors</code></td><td>هفت رنگ</td><td>رنگ کرسرها، با ویرگول جدا شده.</td></tr>
+            <tr><td><code>data-banna-skip</code></td><td></td><td>روی هر بخشی بگذارید، بنّا به آن دست نمی‌زند.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <p class="kicker">با خیال راحت</p>
+        <h2>چیزی را خراب نمی‌کند</h2>
+        <div class="promises">
+          <div class="promise"><h3>متن صفحه دست نمی‌خورد</h3><p>فقط پنهان و آشکار می‌کند. موتورهای جست‌وجو همه‌ی صفحه را می‌خوانند.</p></div>
+          <div class="promise"><h3>چیزی جایی فرستاده نمی‌شود</h3><p>هیچ ردیاب و هیچ درخواستی به سایت دیگر ندارد.</p></div>
+          <div class="promise"><h3>کسی منتظر نمی‌ماند</h3><p>با دکمه یا Esc رد می‌شود، و برای کسی که در تنظیماتش حرکت کمتر خواسته اجرا نمی‌شود.</p></div>
+          <div class="promise"><h3>اگر خطا بدهد، صفحه سر جایش است</h3><p>هر مشکلی پیش بیاید، صفحه بی‌درنگ کامل نشان داده می‌شود.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="author">
+      <div class="wrap">
+        <div class="author">
+          <div>
+            <div class="author-links">
+              <a class="main" href="https://divocode.com/" rel="author">divocode.com</a>
+              <a href="https://github.com/mrgholami8" rel="noopener">GitHub</a>
+              <a href="https://www.instagram.com/divocode.co/" rel="noopener">Instagram</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

@@ -1,12 +1,12 @@
 # banna
 
-By [Mohammadreza Rokhbin](https://rokhbin.ir). The name is Persian: بنّا (banna) means builder.
+By((https://divocode.com/)). The name is Persian: بنّا (banna) means builder.
 
 A crew of cursors builds your page in front of the visitor: drawing boxes, typing text and clicking buttons into place. The first screen builds on load and the rest on scroll.
 
 One file, no dependencies, no build step. MIT license.
 
-**Live demo:** [فارسی](https://rokhbin.github.io/banna/demo/) · [English](https://rokhbin.github.io/banna/demo/en/)
+**Live demo:** [فارسی](https://github.com/mrgholami8/banna-main) ·
 
 ## Use
 

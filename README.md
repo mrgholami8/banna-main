@@ -84,4 +84,4 @@ document.addEventListener('banna:done', () => {})
 
 MIT. See [LICENSE](LICENSE). The demo uses the Vazirmatn font, under the SIL Open Font License ([OFL.txt](demo/assets/fonts/OFL.txt)).
 
-Written from scratch by [Mohammadreza Rokhbin](https://rokhbin.ir). The idea of cursors building a page comes from [Swarm](https://califa.github.io/swarm-site/) by Joel Califa.
+Written from scratch by ((https://divocode.com/))). The idea of cursors building a page comes from [Swarm](https://califa.github.io/swarm-site/) by Joel Califa.
